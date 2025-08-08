@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/book"
+        android:contentDescription="App Logo" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Book Library App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <!-- Progress Indicator -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/appNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:indeterminate="true"
+        android:theme="@style/Widget.AppCompat.ProgressBar" />
+</RelativeLayout>

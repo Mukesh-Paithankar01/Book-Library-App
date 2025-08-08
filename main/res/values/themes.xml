@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mukesh" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary color of the app -->
+        <item name="colorPrimary">#C89F9C</item>
+        <item name="colorPrimaryVariant">#C89F9C</item>
+        <item name="colorOnPrimary">#000000</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">#C89F9C</item>
+        <item name="android:navigationBarColor">#C89F9C</item>
+
+        <!-- Customize any other attributes as needed -->
+    </style>
+
+    <style name="Theme.Mukesh" parent="Base.Theme.Mukesh" />
+</resources>
